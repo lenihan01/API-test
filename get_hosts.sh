@@ -4,7 +4,7 @@ set -eux
 
 LOCATION="Geneva-EPC-PCE1"
 SPACE="Hosted-Trial-EPCPCE1-Space"
-PROJECT="ac4994e1-17dd-4592-a376-733b1ec5544e"
+PROJECT="492fcbe7-8c51-4ff3-8130-8686f33bcb07"
 
 ACCESS_TOKEN=$(curl -s -k -X POST \
   "${HPEGL_IAM_SERVICE_URL}/v1/token" \
